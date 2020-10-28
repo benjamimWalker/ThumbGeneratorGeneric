@@ -7,8 +7,8 @@ from random import choice
 colors: Tuple[str, str, str, str, str, str] = '#00ff00f', '#cc231b', '#1342eb', '#ff6f00', '#5c0ee3', '#00f4fc', '#e1ff00'
 # Colors
 
-input_file = 'C:/Users/Beijamin/Pictures/Screenshots/a.png'
-output_path = 'C:/Users/Beijamin/Videos/Jovens titãs/Thumb/'
+input_file = 'path for importing image'
+output_path = 'path for saving thumbnail'
 # Your output
 
 original = Image.open(input_file)
